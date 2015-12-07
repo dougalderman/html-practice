@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #fff;
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 15px 20px 15px;
+}
+
+#orange-box {
+	background-color: black;
+}
+
+.left {
+	background-color: #FFAA2B;
+	width: 50%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	padding-top: 25%;
+}
+
+.right {
+	background: url("https://images.unsplash.com/photo-1426287658398-5a912ce1ed0a?crop=entropy&dpr=1.5&fit=crop&fm=jpg&h=600&ixjsv=2.0.0&ixlib=rb-0.3.5&q=66&w=1300");
+	width: 50%;
+	height: 500px;
+	float: right;
+	background-size: cover;
+}
+a {
+	text-align: center;
+	margin: 20px 0;
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+}
+
+a:hover {
+	color: pink;
+}
+
+.link {
+	width: 20%;
+	background-color: green;
+}
+
+p {
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+ol {
+	font-family: Arial;
+	font-size: 30px;
+}
+button {
+	padding: 10px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+footer {
+	margin: 20px 10%;
+	text-align: center;
+	width: 80%;
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1em;
+}
